@@ -565,7 +565,7 @@
     // ── Worker URL ───────────────────────────────────────────────
     // After deploying your Cloudflare Worker, replace this with
     // your Worker URL, e.g. https://daily-brief-worker.YOUR_NAME.workers.dev
-    const WORKER_URL = 'https://daily-brief-worker.YOUR_NAME.workers.dev';
+    const WORKER_URL = 'https://daily-brief-worker.pgtmk101.workers.dev';
 
     try {
       const response = await fetch(`${WORKER_URL}/generate`, {
